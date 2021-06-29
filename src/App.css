@@ -1,0 +1,63 @@
+.app {
+    background-image: url('./Assets/Images/pexels-photo-3293148.jpeg');
+    width: 100%;
+    background-repeat: round;
+    min-height: 100vh;
+    color: white;
+}
+
+header,
+h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+.input-city {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 6%;
+    transition: width 0.4s ease-in-out;
+}
+
+.input-city:focus {
+    width: 20%;
+}
+
+.forecsat-container {
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+
+.forecast-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: auto;
+    min-width: 17%;
+    margin: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.txt-red {
+    color: red;
+}
+
+@media (max-width: 800px) {
+    .input-city:focus {
+        width: 50%;
+    }
+    .forecast-card {
+        min-width: 40%;
+    }
+}
