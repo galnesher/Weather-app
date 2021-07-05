@@ -51,10 +51,10 @@ react-reveal: ^1.2.2|
 
 ## Screenshots
 #### Home Page :
-![Home Page](src/Assets/Images/weatherApp-Home.png)
+![Home Page](src/Images/weatherApp-Home.png)
 
 #### Weather forecast page:
-![Some Search](src/Assets/Images/weatherApp-TelAviv.png)
+![Some Search](src/Images/weatherApp-Holon.png)
 
 
 
